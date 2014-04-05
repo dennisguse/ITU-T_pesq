@@ -1,0 +1,5 @@
+itu-t-pesq (2005+SNAPSHOT1) trusty; urgency=low
+
+   * Original implementation.
+   * Fixed linux build scripts.
+ -- Dennis Guse <dennis.guse@alumni.tu-berlin.de>  Thu, 24 Oct 2013 16:33:17 +0200

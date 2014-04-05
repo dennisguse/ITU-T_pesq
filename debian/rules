@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+
+%:
+	dh $@  --with autotools-dev
+
+override_dh_auto_build:
+	make "build"
+
+override_dh_auto_clean:
+	make "distclean"
+
+override_dh_auto_install:
+	mkdir -p $(CURDIR)/debian/tmp/usr/bin
+	cp -a -r $(CURDIR)/bin/* $(CURDIR)/debian/tmp/usr/bin/

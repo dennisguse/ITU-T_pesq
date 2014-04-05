@@ -1,0 +1,16 @@
+Source: itu-t-pesq
+Priority: extra
+Maintainer: Dennis Guse <dennis.guse@alumni.tu-berlin.de>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Section: unknown
+Homepage: http://www.itu.int/rec/T-REC-P.862
+Vcs-Git: https://github.com/dennisguse/ITU-T_pesq.git
+
+Package: itu-t-pesq2005
+Section: unknown
+Architecture: any
+Depends: libc
+Description: ITU-T Software for Perceptual evaluation of speech quality (PESQ)
+ An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs.
+ Implementation of ITU-T P.862 (2001) Amendment 2 (11/05): Revised Annex A - Reference implementations and conformance testing for ITU-T Recs P.862, P.862.1 and P.862.2
