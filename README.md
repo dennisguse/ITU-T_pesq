@@ -1,25 +1,11 @@
+Dennis Guse, 2014 (dennis.guse@alumni.tu-berlin.de)
+
+This is the source code PESQ as published in ITU-T P.862 Amendment 2 (11/2005).
+In addition to the original publication does this project include all files, to compile it on (l)unix.
+
+Source urls:
 http://www.itu.int/rec/T-REC-P.862/en
 http://www.itu.int/rec/T-REC-P.862-200511-I!Amd2/en
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

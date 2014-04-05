@@ -2,15 +2,19 @@
 
 all : build
 
-build : bin/itu-pesq
+build : bin/itu-t-pesq2005
+
+install : build
+
 
 distclean : clean
 
 clean :
 	rm -rf bin/
+	rm -rf source/*.gch
 
 bin :
 	mkdir bin
 
-bin/itu-pesq : bin
-	$(CC) -o $@ source/*.c -lm
+bin/itu-t-pesq2005 : bin
+	$(CC) $(CFLAGS) -o $@ source/*.c -lm
