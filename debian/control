@@ -1,14 +1,14 @@
 Source: itu-t-pesq
 Priority: extra
 Maintainer: Dennis Guse <dennis.guse@alumni.tu-berlin.de>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
 Standards-Version: 3.9.4
-Section: unknown
+Section: science
 Homepage: http://www.itu.int/rec/T-REC-P.862
 Vcs-Git: https://github.com/dennisguse/ITU-T_pesq.git
 
 Package: itu-t-pesq2005
-Section: unknown
+Section: science
 Architecture: any
 Depends: libc
 Description: ITU-T Software for Perceptual evaluation of speech quality (PESQ)

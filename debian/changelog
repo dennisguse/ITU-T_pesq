@@ -1,4 +1,4 @@
-itu-t-pesq (2005+SNAPSHOT1) trusty; urgency=low
+itu-t-pesq (2005+SNAPSHOT2) trusty; urgency=low
 
    * Original implementation.
    * Fixed linux build scripts.
